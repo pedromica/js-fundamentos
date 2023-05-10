@@ -6,5 +6,5 @@ Iniciación a JavaScript. Fundamentos base:
 - Condicionales
 - Bucles
 - Scope y Hoisting
-- Algirutnmia básica
+- Algoritnmia básica
 - Resolución de problemas
