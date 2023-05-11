@@ -69,3 +69,56 @@ var hasCar = false;
 if (city === "Madrid" && hasCar === false) {
   console.log("Va en Metro");
 }
+console.log ('--------------------------------')
+console.log ('--------------------------------')
+console.log ('--------------------------------')
+/* Ejercicios else if */
+
+/* Escribir un programa que tome un número como entrada e imprima en la consola si el número es positivo, negativo o cero: */
+
+let num = -5
+if (num > 0){
+    console.log ('El número es positivo');
+} else if (num < 0 ){
+    console.log ('El número es negativo');
+} else {
+    console.log ('Si no es negativo ni positivo el número es 0')
+}
+
+/* Escribir un programa que tome dos números como entrada e imprima en la consola si el primer número es mayor, menor o igual al segundo número: */
+
+let numberOne = -100
+let numberTwo = 20
+
+if (numberOne > numberTwo) {
+    console.log(`El ${numberOne} es mayor que ${numberTwo}`);
+} else if (numberOne < numberTwo) {
+    console.log(`El ${numberTwo} es mayor que el ${numberOne}`);
+} else  {
+    console.log (`Son iguales... ${numberOne} = ${numberTwo}`);
+}
+
+
+//Escribir un programa que tome un número como entrada e imprima en la consola si el número es par o impar:
+
+let numParImpar = 16;
+
+if (numParImpar % 2 === 0){
+    console.log(`El ${numParImpar} es Par`);
+} else {
+    console.log(`El ${numParImpar} es Impar`);
+}
+
+
+// Escribir un programa que tome una cadena como entrada e imprima en la consola si la cadena es corta, mediana o larga:
+
+let frase = 'mas de 12345678910121212';
+
+if (frase.length < 6) {
+    console.log ('La frase es corta');
+} else if (frase.length <= 12) {
+    console.log ('La frase es mediana');
+} else if (frase.length > 12) {
+    console.log ('Es cojonuda');
+}    
+
