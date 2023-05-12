@@ -69,3 +69,35 @@ let isHabitable = isInnerPlanet && hasAtmosphere
 //! Utiliza una declaración console.log para imprimir el valor de la variable isHabitable en la consola. Debería mostrarse true.
 
 console.log (isHabitable);
+
+/* Mini-reto => Condicioanl */
+
+//! Crea una variable llamada character y asígnale el valor "Legolas"
+//! Crea una variable llamada race y asígnale el valor "Elfo"
+//! Crea una variable llamada hasRing y asígnale el valor false (Legolas no tiene el Anillo Único)
+//! Crea una variable llamada isArcher y asígnale el valor true (Legolas es un arquero)
+//! Utiliza un condicional if para evaluar si hasRing es true. Si lo es, imprime en la consola el mensaje "Legolas es el portador del Anillo Único"
+//! Utiliza else if para evaluar si isArcher es true. Si lo es, imprime en la consola el mensaje "Legolas es un arquero experto"
+//! Utiliza else para imprimir en la consola el mensaje "Legolas es un guerrero valiente"
+console.log('------Mini-Reto--------');
+
+
+let character1 = 'Legolas'
+let race = 'Elfo'
+let hasRing = false
+let isArcher = true
+
+if (hasRing == true){
+    console.log(`${character1} es el portador del Anillo Único`)
+} else if (hasRing == false){
+    console.log(`${character1} no tiene el anillo de poder`);
+}
+
+if(isArcher == !true){
+    console.log (`${character1} es un arquero expertO`)
+} else {
+    console.log(`${character1} es un guerrero Valiente`)
+}
+
+
+
