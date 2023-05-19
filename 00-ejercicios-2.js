@@ -24,3 +24,20 @@ for (ovejas = 1 ; ovejas <= 10 ; ovejas++){
     
 
 }
+
+console.log('----Ejercicio-8----')
+
+function sum(numberOne, numberTwo){
+    if (numberOne > numberTwo) {
+        console.log('Es mayor ' + numberOne)
+    } else {
+        console.log('Es mayor '+ numberTwo)
+    }
+}
+
+sum(10,12);
+sum(9,8);
+sum(-500, -501);
+
+console.log('----Ejercicio-9----')
+  
